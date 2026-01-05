@@ -568,10 +568,10 @@
                 searchType = 'phone';
                 phoneOption.classList.add('active');
                 cnicOption.classList.remove('active');
-                searchInput.placeholder = 'ENTER 11-DIGIT PHONE NUMBER';
-                searchInput.maxLength = 11;
+                searchInput.placeholder = 'ENTER 13-DIGIT PHONE NUMBER';
+                searchInput.maxLength = 13;
                 searchInput.value = '';
-                resultContainer.innerHTML = '<div class="no-data">ENTER 11-DIGIT PHONE TO SCAN</div>';
+                resultContainer.innerHTML = '<div class="no-data">ENTER 13-DIGIT PHONE TO SCAN</div>';
             });
             
             cnicOption.addEventListener('click', function() {
